@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background:  linear-gradient(to right bottom, aqua, coral, gold, hotpink);
+    position: relative;
+}
+
+.navbar2{
+    max-width: 760px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: #7b917b86;
+    margin-left: 505px;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* animation: blog 5s infinite; */
+}
+.navbar2 ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.navbar2 ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.navbar2 ul li a:hover{
+    font-size: 22px;
+    color: rgb(226, 102, 102);
+}
+
+
+.logo{
+    max-width: 100px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin-left: 85px;
+    margin-top: -103px;
+    background-color: #7b917b00;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.yozuv{
+    max-width: 400px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin-left: 85px;
+    margin-top: -101px;
+    background-color: #7b917b86;
+    border-radius: 10px;
+}
+.yozuv2{
+    color: rgb(212, 192, 103);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 0 0 5px red;
+    transition: 0.2s;
+}
+.yozuv2:hover{
+    transform: scale(1.1);
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+
+.gif{
+    max-width: 1200px;
+    width: 100%;
+    height: 490px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+    background: url(hub.gif) no-repeat center;
+    background-size: 100%;
+    border-radius: 25px;
+    animation: site 3s infinite;
+}
+.mcyozuv{
+    max-width: 600px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0);
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 100px;
+    box-shadow: 0 0 15px black;
+}
+
+.gif h1{
+    color: rgb(230, 220, 82);
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 20px khaki;
+}
+.gif p {
+    color: rgb(211, 192, 85);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.hub
+{
+    max-width: 1200px;
+    width: 100%;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 200px;
+    background: url(hub.jpg) no-repeat center;
+    animation: site 2s infinite;
+}
+
+.hub h1{
+    color: rgb(187, 71, 71);
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: rgba(128, 128, 128, 0.493);
+    border-radius: 20px;
+}
+
+.finish{
+    max-width: 1190px;
+    width: 100%;
+    height: 650px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 200px;
+    background-size: 100%;
+    /* box-shadow: 0 0 20px red; */
+    background: linear-gradient(to top left, lightblue, lightcoral, lightgreen );
+    
+}
+
+.f_yozuv{
+    max-width: 900px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+}
+.f_yozuv h1{
+    font-size: 100px;
+    color: lightseagreen;
+    text-shadow: 0 0 10px aqua;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.f_yozuv h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-shadow: 0 0 20px yellow;
+}
+
+
+.icons{
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-left: 50px;
+}
+.fa-discord{
+    color: #5865F2;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.fa-telegram{
+    color: #2199D4;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.fa-youtube{
+    color: #FF0000;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 10px   ;
+}
+
+
+.dc_yozuv{
+    margin-top: -40px;
+    margin-left: 90px;
+    color: #5865F2;
+    font-family: cursive;
+    font-size: 30px;
+}   
+.tg_yozuv{
+    margin-top: -40px;
+    margin-left: 90px;
+    color: #2199D4;
+    font-family: cursive;
+    font-size: 30px;
+}   
+.yt_yozuv{
+    margin-top: -40px;
+    margin-left: 90px;
+    color: #FF0000;
+    font-family: cursive;
+    font-size: 30px;
+    /* color: ; */
+}   
+
+
+
+.kirish{
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-left: 650px;
+    margin-top: -230px;
+}
+.kirish h4{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(126, 126, 252);
+}
+.kirish h6{
+    font-size: 20px;
+    color: rgb(37, 38, 39);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.kirish h5{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(126, 126, 252);
+}
+.kirish a{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+@keyframes site
+{
+    0%{
+       box-shadow: 0 0 20px red;
+    }   
+    50%{
+        box-shadow: 0 0 20px blue;
+    }
+    100%{
+        box-shadow: 0 0 20px yellow;
+    }
+}
